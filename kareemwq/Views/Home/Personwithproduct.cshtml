@@ -19,11 +19,11 @@
     <tbody>
      <tr>
       <td>Person Name</td>
-      <td>@Model.person.Name</td>
+      <td>@Model.person?.Name</td>
      </tr>
      <tr>
       <td>Date</td>
-      <td>@Model.person.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+      <td>@Model.person?.DateOfBirth?.ToString("MM/dd/yyyy")</td>
      </tr>
     </tbody>
    </table>
@@ -35,11 +35,11 @@
     <tbody>
      <tr>
       <td>Product Id</td>
-      <td>@Model.product.ProductId</td>
+      <td>@Model.product?.ProductId</td>
      </tr>
      <tr>
       <td>Product Name</td>
-      <td>@Model.product.ProductName</td>
+      <td>@Model.product?.ProductName</td>
      </tr>
     </tbody>
    </table>
