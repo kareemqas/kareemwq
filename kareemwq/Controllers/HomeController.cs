@@ -20,6 +20,7 @@ namespace kareemwq.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.p = "s";
             return View(people);
         }
         [Route("Privacy/{name}")]

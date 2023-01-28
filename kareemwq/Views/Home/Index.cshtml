@@ -8,16 +8,16 @@
 </head>
 @foreach (Person pep in Model)
 {
-    <b>@pep.Name</b>
+     <a href="/Privacy/@pep.Name">@pep.Name</a>
     <br />
     <b>@pep.DateOfBirth?.ToString("MM/dd/yyyy")</b>
     <br />
-    <a href="/Privacy/@pep.Name">detials</a>
     <br />
 
 
 }
 <a href="/viewpro">product</a>
+<a>@ViewBag.p</a>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
